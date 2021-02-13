@@ -1,8 +1,8 @@
 class User {
     constructor(username, emailAddress){
-        this.name = username
-        this.email = emailAddress
-        this.accountBalance = 0
+        this.name = username;
+        this.email = emailAddress;
+        this.accountBalance = 0;
     }
     makeDeposit(amount){
         this.accountBalance += amount;
@@ -21,4 +21,9 @@ class User {
     }
 }
 
-
+const shanna = new User("Shanna Pilcher", "shanna@user.com");
+const ty = new User("Ty Pilcher", "ty@user.com");
+const lex = new User("Lex Pilcher", "lex@user.com");
+console.log(shanna.name);
+console.log(ty.name);
+console.log(lex.name);
